@@ -75,7 +75,6 @@
  
     public static void main(String[] args) {
       if (args.length != 1) {
-         System.out.println("args.length = " + args.length);
          System.out.println("error");
       } else {
          printArray(cutString(args[0]," \t\n"));
