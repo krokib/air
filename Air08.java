@@ -61,10 +61,10 @@ public class Air08 {
     }
 
     private static void printResult(int[] ints) {
-        for (int i = 0; i < ints.length; i++) {
+        for (int i = 0; i < ints.length - 1; i++) {
             System.out.print(ints[i] + " ");
         }
-        System.out.println("");
+        System.out.println(ints[ints.length - 1]);
     }
 
 
