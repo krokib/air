@@ -94,7 +94,6 @@
                 array = getSecondArray(array, index + separ.length());
             }
             if (index > 0 && getFirstIndex(array, separ) != 0) {
-                System.out.println("array.length = " + array.length);
                 result++;
             }
         }
@@ -110,7 +109,6 @@
 
         //initialisation du résultat
         int len = getNumberOfStrings(str, separ);
-        System.out.println("len = " + len);
         String[] result = new String[len];
 
         //recherche des chaines non vides et rempissages du resultat
