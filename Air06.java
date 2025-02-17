@@ -77,10 +77,10 @@ public class Air06 {
     }
 
     private static void printResult(String[] strs) {
-        for (int i = 0; i < strs.length; i++) {
+        for (int i = 0; i < strs.length - 1; i++) {
             System.out.print(strs[i] + " ");
         }
-        System.out.println("");
+        System.out.println(strs[strs.length - 1]);
     }
 
     public static void main(String[] args) {
