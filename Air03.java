@@ -39,7 +39,7 @@ public class Air03 {
             //On parcourt strs de 0 à n-1 (n longeur de strs)
             if (i == strs.length - 1) {
                 //Si on est sur le dernier élément, pas de paire possible
-                result += strs[i];
+                result += (result == "") ? strs[i] : (" " + strs[i]);
             } else {
                 //On teste l'égalité avec tous les éléments de i+1 à n-1
                 for (int j = i + 1; j < strs.length; j++) {
@@ -53,7 +53,7 @@ public class Air03 {
                         break;
                     } else if (j == strs.length - 1) {
                         //Si aucun élément paire n'est trouvé, on l'ajoute au résultat
-                        result += strs[i] + " ";
+                        result += (result == "") ? strs[i] : (" " + strs[i]);
                     }
                 }
             }
