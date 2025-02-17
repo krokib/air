@@ -55,7 +55,7 @@
             while (j < strArray.length && !isInString(strArray[j], separ)) {
                j++;
             }
-            wordArray = new char[j - i + 1];
+            wordArray = new char[j - i];
             for (int k = 0; k < j - i; k++) {
                wordArray[k] = strArray[i + k];
             }
