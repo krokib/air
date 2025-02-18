@@ -45,6 +45,7 @@ public class Air10 {
                     System.out.print((char) i);
                 }
                 buffer.close();
+                System.out.println("");
             } catch (Exception e) {
                 System.out.println("error");
             }
