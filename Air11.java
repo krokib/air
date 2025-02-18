@@ -29,7 +29,7 @@ public class Air11 {
             for (int j = 0; j < i; j++) {
                 System.out.print(c);
             }
-            for (int j = i; j < nb; j++) {
+            for (int j = i; j < nb - 1; j++) {
                 System.out.print(' ');
             }
 
